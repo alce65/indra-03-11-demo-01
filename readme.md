@@ -4,8 +4,10 @@ Demo del curso de Git y GitHub.
 
 Empezamos con los comandos básicos de Git.
 
-Añadimos conexión a GiHub
+Añadimos conexión a GitHub
 
-Comprobamos rl uso de push y pull
+Comprobamos el uso de push y pull
 
-Vemo s pull como fetch + merge
+Vemos pull como fetch + merge
+
+Después de pull, si hay ORT merge (nuevo commit), hay que hacer push.
