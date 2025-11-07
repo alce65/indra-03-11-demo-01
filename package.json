@@ -1,0 +1,31 @@
+{
+  "name": "demo1",
+  "version": "1.0.0",
+  "description": "Demo del curso de Git y GitHub.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test:error": "echo \"Test simulated with Error\" && exit 1",
+    "test": "echo \"Test simulated with Success\" && exit 0",
+    "lint:error": "echo \"Lint simulated with Error\" && exit 1",
+    "lint": "echo \"Lint simulated with Success\" && exit 0",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alce65/indra-03-11-demo-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/alce65/indra-03-11-demo-01/issues"
+  },
+  "homepage": "https://github.com/alce65/indra-03-11-demo-01#readme",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
